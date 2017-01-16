@@ -1,0 +1,56 @@
+h1 {
+    width: 100%;
+    font-family:"Baron Neue Bold", sans-serif;
+    font-size: 2rem;
+    display: inline-block;
+    padding: 1rem;
+    font-weight: 200;
+    position: relative;
+    opacity: 1;
+    transform: scale(1);
+    transition: transform 0.8s ease, opacity 5s ease;
+}
+
+.loading h1 {
+    transform: scale(0.8);
+    opacity: 0;
+}
+
+h1:before,
+h1:after {
+    height: 1px;
+    width: 100%;
+    content: "";
+    background: #fff;
+    display: block;
+    position: absolute;
+    transition: width 0.8s ease, height 0.4s;
+    transition-delay: 1s;
+}
+
+
+
+h1:before {
+    top: 0;
+    left: 0;
+}
+
+h1:after {
+    bottom: 0;
+    right: 0;
+}
+h1 span, h1 span:before, h1 span:after {
+    height: 100%;
+    width: 1px;
+    content: "";
+    background: #fff;
+    display: block;
+    position: absolute;
+    transition: width 0.8s ease, height 0.4s;
+    transition-delay: 1s;
+    transform: rotate(90deg);
+}
+.loading h1:before,
+.loading h1:after {
+    width: 0;
+}
