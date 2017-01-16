@@ -1,60 +1,54 @@
-body {
-    background: #445;
-    color: #FFF;
-}
-
 #main{
-
-    background-size: cover, cover;
-    background-position: center, center;
-    height: 80vh;
+    position: relative;
+    float: left;
+    background-color:#383839;
+    color: #fff;
+    height: 85vh;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/bg-work.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+
 
 }
-
-h1 {
-    font-family:"Baron Neue Bold", sans-serif;
-    font-size: 2rem;
-    display: inline-block;
-    padding: 1rem;
-    font-weight: 200;
-    position: relative;
-    opacity: 1;
-    transform: scale(1);
-    transition: transform 0.8s ease, opacity 5s ease;
-}
-
-.loading h1 {
-    transform: scale(0.8);
-    opacity: 0;
-}
-
-h1:before,
-h1:after {
-    height: 1px;
-    width: 100%;
-    content: "";
-    background: white;
-    display: block;
+.button {
+    width: 120px;
     position: absolute;
-    transition: width 0.8s ease;
-    transition-delay: 1s;
+    padding: 14px 0;
+    border: 2px white solid;
+    float: left;
+    color: white;
+    cursor: pointer;
+    font-size: .9em;
+    text-transform: uppercase;
+    transition: color 0.4s, background-color 0.4s;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1em;
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+}
+button:hover,
+button:focus {
+    transition: color 0.4s, background-color 0.4s;
+    color: white;
+    text-decoration: none;
+    background-color:black;
 }
 
-h1:before {
-    top: 0;
-    left: 0;
-}
-
-h1:after {
-    bottom: 0;
-    right: 0;
-}
-
-.loading h1:before,
-.loading h1:after {
-    width: 0;
-}
