@@ -1,25 +1,30 @@
-#main{
+#main {
     position: relative;
     float: left;
-    background-color:#383839;
+    background-color: #383839;
     color: #fff;
     height: 85vh;
     width: 100%;
     display: flex;
+    margin: 0;
     justify-content: center;
     align-items: center;
-    margin: 0;
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/bg-work.jpg') no-repeat center center fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/bg-work.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 
+}
+#title-name{
 
+    justify-content: flex-end;
+    align-items: center;
 
 }
 .button {
-    width: 120px;
+    margin-top: 80px;
+    width: 150px;
     position: absolute;
     padding: 14px 0;
     border: 2px white solid;
