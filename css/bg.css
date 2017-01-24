@@ -20,15 +20,17 @@
 
     justify-content: flex-end;
     align-items: center;
+    position: absolute;
 
 }
 .button {
-    margin-top: 80px;
-    width: 150px;
-    position: absolute;
+    margin-top: 180px;
+    width: 190px;
+    margin-right: 10px;
+    position: relative;
     padding: 14px 0;
     border: 2px white solid;
-    float: left;
+    float: inherit;
     color: white;
     cursor: pointer;
     font-size: .9em;

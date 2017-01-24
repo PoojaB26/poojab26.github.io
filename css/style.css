@@ -4,5 +4,7 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-
+.container{
+    align-content: center;
+}
 
