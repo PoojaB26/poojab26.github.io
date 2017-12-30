@@ -60,9 +60,10 @@ span:focus, .alpha:focus {
     color: #0a0a0a;
     text-align: center;
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
-    background: #f8f8f8;
+    background: #fff;
     border: 0;
     cursor: pointer;
+    display: none;
 
 }
 
