@@ -57,13 +57,13 @@ span:focus, .alpha:focus {
     vertical-align: top;
     padding: 10px;
     font-size: 22px;
-    color: #0a0a0a;
+    color: #ad2142;
     text-align: center;
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
     background: #fff;
-    border: 0;
     cursor: pointer;
     display: none;
+    border: 0;
 
 }
 
@@ -87,4 +87,8 @@ span:focus, .alpha:focus {
 
 .social{
     padding: 10px;
+}
+
+.gh{
+    margin: 20px;
 }
