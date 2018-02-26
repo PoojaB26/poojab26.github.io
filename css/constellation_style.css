@@ -1,0 +1,138 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,700,300italic,400italic,700italic);
+body,
+html {
+    font-family: Lato;
+    padding: 0;
+    margin: 0;
+    min-height: 100%;
+    height: 100%;
+    color: #02235e;
+    background-size: cover;
+    background-position: center;
+}
+
+#logo {
+    position: absolute;
+    width: 50%;
+}
+
+.logo {
+    display: block;
+    position: absolute;
+    margin-top: -300px;
+    left: 50%;
+    top: 50%;
+    animation: bounceIn 0.6s;
+    transform: rotate(0deg) scale(1) translateZ(0);
+    transition: all 0.4s cubic-bezier(0.8, 1.8, 0.75, 0.75);
+    cursor: pointer;
+    width: 150px;
+}
+
+.header {
+    user-select: none;
+    cursor: default;
+    height: 100%;
+}
+.header__dev {
+    font-family: Lato, Arial, sans-serif;
+    text-shadow: 0 1px 1px rgba(42, 43, 61, 0.5);
+    font-size: 86px;
+    font-weight: 300;
+    position: absolute;
+    transition: all 0.6s ease-out;
+    transition-delay: 0.5s;
+    z-index: 2;
+}
+@media screen and (max-width: 1000px) {
+    .header__dev {
+        transform: scale(0.9);
+    }
+}
+@media screen and (max-width: 850px) {
+    .header__dev {
+        transform: scale(0.65);
+    }
+}
+@media screen and (max-width: 700px) {
+    .header__dev {
+        transform: scale(0.5);
+    }
+}
+
+.dev__slash {
+    color: #A82336;
+    font-weight: 300;
+    position: absolute;
+    top: -5px;
+    left: 105px;
+    margin-left: 5px;
+    transform: scale(1.6);
+    z-index: 5;
+}
+.dev__rosa, .dev__lab {
+    top: 50%;
+    margin-top: -125px;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    transform: rotateZ(22deg);
+}
+.dev__rosa i, .dev__lab i {
+    font-style: normal;
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    line-height: 250px;
+    transform: rotateZ(-22deg);
+}
+.dev__rosa {
+    text-align: right;
+    direction: rtl;
+    margin-left: -134px;
+}
+.dev__rosa i {
+    text-indent: -15px;
+}
+.dev__lab {
+    margin-left: 135px;
+}
+.dev__lab i {
+    text-indent: -185px;
+}
+.dev__developer {
+    font-weight: 300;
+    position: absolute;
+    top: 0;
+    left: 312.5px;
+}
+.dev__rosa, .dev__lab, .dev__rosa i, .dev__lab i, .dev__developer, .dev__slash {
+    transition: all 0.6s cubic-bezier(0.555, -0.375, 0, 1.615);
+}
+
+.header__dev--open .dev__rosa i, .header__dev--open .dev__lab i {
+    text-indent: 15px;
+}
+.header__dev--open .dev__developer {
+    transform: translateX(30px);
+    opacity: 0.2;
+}
+.header__dev--open .dev__slash {
+    transform: scale(1.6) rotateZ(-22deg);
+}
+
+.header__dev--slow .dev__rosa, .header__dev--slow .dev__lab, .header__dev--slow .dev__fe i, .header__dev--slow .dev__ux i, .header__dev--slow .dev__developer, .header__dev--slow .dev__slash {
+    transition: all 1.2s cubic-bezier(0.555, -0.375, 0, 1.615);
+}
+
+.anim_image{
+    margin-bottom: 50%;
+}
+
+body {
+    background-color: #fff;
+    /*  background-image: url( http://wallpoper.com/images/00/26/06/21/gaussian-blur_00260621.jpg ); */
+}
