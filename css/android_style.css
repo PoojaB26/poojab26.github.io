@@ -5,6 +5,10 @@ html, body {
     box-sizing: border-box;
 }
 
+a{
+    color:#fff;
+    text-decoration: none;
+}
 .cd-container {
     width: 90%;
     max-width: 1080px;
