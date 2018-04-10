@@ -3,6 +3,7 @@ html, body {
     height: 100%;
     font-family: 'Open Sans', sans-serif;
     box-sizing: border-box;
+    margin: 0;
 }
 
 a{
@@ -292,4 +293,10 @@ Main components
         right: 122%;
         text-align: right;
     }
+}
+
+.github-footer{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
