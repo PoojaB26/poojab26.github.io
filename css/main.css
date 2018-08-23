@@ -1721,7 +1721,7 @@ header .logo a {
 }
 
 .main-navigation li a:hover {
-	color: #000000;
+	color: #fff;
 }
 
 .main-navigation li > a {
@@ -1729,8 +1729,8 @@ header .logo a {
 }
 
 .main-navigation li.current > a {
-	border-bottom: 2px solid #151515;
-	color: #000000;
+	border-bottom: 2px solid #ffffff;
+	color: #e3e3e3;
 	font-family: "montserrat-bold", sans-serif;
 }
 
