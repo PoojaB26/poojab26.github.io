@@ -2357,7 +2357,7 @@ header .logo a {
 	left: 50%;
 	top: 0;
 	margin-left: -100px;
-	width: 200px;
+	width: 400px;
 	height: 1px;
 	background-color: #D1D1D1;
 }
@@ -3278,4 +3278,10 @@ footer ul li {
  * ----------------------------------------------- */
 #cForm {
 	margin-top: 3.6rem;
+}
+
+.category{
+	font-family: "Lato", serif;
+	text-transform: uppercase;
+	font-size: 13.5px;
 }
