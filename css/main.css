@@ -1132,7 +1132,6 @@ input::-moz-focus-inner {
 }
 
 .bricks-wrapper .entry-thumb .thumb-link::after {
-	content: "...";
 	font-family: georgia, serif;
 	font-size: 4.5rem;
 	z-index: 1;
